@@ -10,12 +10,10 @@ from slack_sdk.errors import SlackApiError
 
 # 1. 要約したいチャンネル名のリスト
 # (例: ['general', 'random', 'tech-talk'])
-TARGET_CHANNEL_NAMES = ["就活"]
-
+TARGET_CHANNEL_NAMES = ["要約したいチャンネル名"]
 # 2. 要約を投稿したいチャンネルの「チャンネルID」
 # ※チャンネル名はNG。IDはチャンネル名を右クリックして「リンクをコピー」で確認できます (例: C0123ABCDE)
-SUMMARY_POST_CHANNEL_ID = "C091WBKLW81"  # 必ず書き換えてください
-
+SUMMARY_POST_CHANNEL_ID = "投稿したいチャンネルのリンク" 
 # 3. 使用するAIモデル
 # (高性能なモデルがおすすめ: gpt-4, gpt-4o, gpt-3.5-turboなど)
 AI_MODEL = "gpt-4.1-nano"
